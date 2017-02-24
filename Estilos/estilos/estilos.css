@@ -1,0 +1,419 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(menu.css);
+@import url(banner.css);
+
+/* Estilos index */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica serif;
+    font-weight: lighter;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../../imagenes/index.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 58px;
+    margin: 0 auto;
+    padding: 0;
+    background: #59b548;
+    background: -moz-linear-gradient(left, #59b548 52%, #59b548 52%, #fc7323 100%);
+    background: -webkit-linear-gradient(left, #59b548 52%, #59b548 52%, #fc7323 100%);
+    background: linear-gradient(to right, #59b548 52%, #59b548 52%, #fc7323 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#59b548', endColorstr='#fc7323', GradientType=1);
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+header .contenedor {
+    float: table;
+}
+
+h1 {
+    float: left;
+}
+
+header .contenedor h1{
+    margin-top: 0.5%;
+}
+
+#logo{
+    margin-top: -6%;
+}
+
+#modal-nav{
+    text-decoration: none;
+    color:black;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 50%;
+  margin: auto;
+}
+
+#img-carousel{
+    width: 100%; height: 400px;
+}
+
+#Redes a{
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+footer{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer div p{
+    text-align: center;
+}
+
+#estilo-modal{
+    margin: auto;
+}
+
+#olv{
+    text-decoration: none; margin-top: 1%;
+    margin-left: 1%;
+}
+
+#ce{
+    width: 93%;
+}
+
+
+/* Estilos Modal quienes somos  */
+
+.n {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background-image: url(../../imagenes/gris.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    border-radius: 7px;
+}
+
+.q {
+    background: #59B548;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-weight: 100%;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 10px solid #707070;
+}
+
+p {
+    margin-top: 100px;
+    margin-bottom: -15%;
+    text-align: justify;
+}
+
+/*   Estilos formulario registro   */
+
+.form-register {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background-image: url(../../imagenes/r.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    border-radius: 7px;
+}
+
+.form__titulo2 {
+    background: #59B548;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-weight: 100%;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 10px solid #707070;
+}
+
+input {
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-left: 4%;
+}
+
+select {
+    padding: 3px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-left: 57px;
+    margin-top: -10px;
+}
+
+#nombre, #apellido, #usuario1, #eps, #telefono, #correo, #password1, #con_password{
+    width: 100%;
+    padding: 5px;
+}
+
+#tipo_documento {
+    margin-left: 22%;
+    margin-bottom: 15px;
+}
+
+#ficha {
+    margin-left: 26.5%;
+    margin-bottom: 15px;
+}
+
+#equipo {
+    margin-left: 50%;
+    margin-bottom: 15px;
+}
+
+#tipo_usuario {
+    margin-left: 31%;
+    margin-bottom: 15px;
+}
+
+
+.contenedor-inputs2 {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-enviar1 {
+    background: #00BFFF;
+    border-radius: 3px;
+    width: 49%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.btn-enviar1:active {
+    transform: scale(1.1);
+}
+
+input.btn-enviar1:hover {
+    background-color: #FA9E4B;
+}
+
+.btn-borrar {
+    background: red;
+    border-radius: 3px;
+    width: 49%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.btn-borrar:active {
+    transform: scale(1.1);
+}
+
+input.btn-borrar:hover {
+    background-color: #FA9E4B;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.leido {
+    margin-left: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+input[value="Registrar"] {
+    color: white;
+}
+
+input[value="Borrar"] {
+    color: white;
+}
+
+.poli {
+    color: black;
+    font-size: 16.2px;
+}
+
+
+/* Estilos de Modal de Iniciar Sesion  */
+
+.contenedor-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+input {
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+form input[type="text"], input[type="password"] {
+    width: 300px;
+    padding: 15px 21px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 18px;
+    margin-bottom: 10px;
+    border: 1px solid darkgray;
+}
+
+form input[type="submit"] {
+    background: green;
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    background: blue;
+    cursor: pointer;
+}
+
+.btn-login {
+    background: #5eb319;
+    color: white;
+    border-radius: 3px;
+    border: solid;
+    padding: 15px 21px;
+    cursor: pointer;
+    width: 100%;
+    margin-left: 6%;
+}
+
+.btn-login:active {
+    transform: scale(1.1);
+}
+
+a {
+    padding-left: 30%;
+}
+
+/*  Estilos Modal cambio de contraseña  */
+
+.form-cambio {
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background-image: url(../../imagenes/r.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    border-radius: 7px;
+}
+
+.form__titulo1 {
+    background: #5eb319;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    margin: auto;
+    font-weight: 100%;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 10px solid;
+    font-family: cursive;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+
+.input-48s {
+    width: 100%;
+}
+
+.btn-enviar {
+    background: #5eb319;
+    color: white;
+    border-radius: 3px;
+    border: solid;
+    width: 100%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.btn-enviar:active {
+    transform: scale(1.1);
+}
+
+input.btn-enviar:hover {
+    background-color: black;
+}
+
+/*   Estilos @media  */
+
+@media (min-width: 100px) {
+    .modal-body {
+        width: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .modal-body {
+        width: auto;
+    }
+}
+
+@media (max-width: 480px){
+    footer{
+        font-size: 12px;
+    }
+    #Redes a{
+        padding-left: 45%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    #tipo_documento {
+        margin-left: -8%;
+    }
+    #ficha {
+        margin-left: -8%;
+    }
+    #tipo_usuario {
+        margin-left: -8%;
+    }
+}

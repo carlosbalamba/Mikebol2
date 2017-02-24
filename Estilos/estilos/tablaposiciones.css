@@ -1,0 +1,127 @@
+
+/*  Estilos tabla de posiciones */
+
+
+#head, tr, td {
+    font-size: 20px;
+    color: black;
+}
+
+#tp{
+    margin-left: 5%;
+    margin-top: 1%;
+    color: gray; 
+    opacity: 0.5;
+}
+
+#th2{
+    text-align: center;
+    color: black;
+    margin-top: 1%;
+}
+
+#tablaPos {
+    margin-left: 10%;
+    
+}
+
+
+}
+
+#tt{
+ width: 1200px;
+ margin-left: -5%;
+ color: black;
+
+}
+
+
+#tt tr td {
+    text-align: center;
+    color: black;
+     border: 2px;
+     background-color: red;
+}
+
+#especial {
+    padding-left: 6%;
+    padding-right: 100px;
+    color: black;
+}
+
+#esp2 {
+    padding-left: 4%;
+    padding-right: 70px;
+    color: black;
+}
+
+#esp3 {
+    padding-left: 3%;
+    padding-right: 50px;
+    color: black;
+}
+
+#esp4 {
+    padding-left: 3%;
+    padding-right: 50px;
+    color: black;
+}
+
+#esp5 {
+    padding-left: 3%;
+    padding-right: 50px;
+    color: black;
+}
+
+#esp6 {
+    padding-left: 3%;
+    padding-right: 50px;
+    color: black;
+}
+
+#esp7 {
+    padding-left: 3%;
+    padding-right: 50px;
+    color: black;
+}
+
+#esp8 {
+    padding-left: 3%;
+    padding-right: 50px;
+    color: black;
+}
+
+#esp9 {
+    padding-left: 3%;
+    padding-right: 50px;
+    color: black;
+}
+#pb{
+    color: #90BE4F;
+    margin-left: -3%;
+}
+
+#null{
+color: red;
+}
+
+
+}
+
+@media (max-width: 480px) {
+    
+    #head, tr, td{
+        font-size: 11px;
+    }
+
+    #tp{
+        display: none;
+    }
+
+    #tablaPos{
+        width: 90%;
+    }
+
+
+
+}
